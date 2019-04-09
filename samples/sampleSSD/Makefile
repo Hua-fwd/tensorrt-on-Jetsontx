@@ -1,0 +1,4 @@
+OUTNAME_RELEASE = sample_SSD
+OUTNAME_DEBUG   = sample_SSD_debug
+MAKEFILE ?= Makefile.$(OUTNAME_RELEASE)
+include $(MAKEFILE)
